@@ -89,8 +89,8 @@
                     <!--<div class="intro-heading">Java<span>+</span>Drupal<span>+</span>Apex</div>-->
                     <!--<div class="intro-lead-in" style="color:yellow;margin-top:-25px;">Projects</div>-->
                     <div class="intro-heading animated bounceIn">We are a New York based IT Company</div>
-                    <a href="#services" class="page-scroll btn btn-xl animated flipInX">Tell me more</a>
-                    <a href="#contact-btn" class="page-scroll btn btn-xl animated flipInX" style="margin-left:2%">Contact Us</a>
+                    <a href="#services" class="page-scroll btn btn-xl animated flipInX">Find out more</a>
+                    <a href="#contact" class="page-scroll btn btn-xl animated flipInX" style="margin-left:2%">Contact Us</a>
                 </div>
             </div>
         </header>
@@ -415,7 +415,12 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <form name="sentMessage" id="contactForm" novalidate>
+                        <form name="sentMessage" id="contactForm" novalidate action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+                            <?php
+                              if(isset($_POST)){
+                                  var_dump($_POST);
+                              }
+                            ?>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
