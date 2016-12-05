@@ -274,6 +274,7 @@
         </section>
 
         <!-- Team Section -->
+        <!--
         <section id="team" class="bg-light-gray">
             <div class="container">
                 <div class="row">
@@ -336,6 +337,7 @@
                 </div>
             </div>
         </section>
+        -->
 
         <!-- Clients Aside -->
         <!-- <aside class="clients">
