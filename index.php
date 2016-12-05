@@ -98,7 +98,7 @@
             <!-- Header -->
             <header>
                 <div class="container">
-                    <div class="intro-text layer" data-depth="0.050">
+                    <div class="intro-text">
                         <div class="intro-lead-in">Welcome To Our Studio!</div>
                         <!--<div class="intro-heading">Java<span>+</span>Drupal<span>+</span>Apex</div>-->
                         <!--<div class="intro-lead-in" style="color:yellow;margin-top:-25px;">Projects</div>-->
