@@ -1,15 +1,15 @@
 jQuery(document).ready(function () {
-
+    var website = window.location.href;
     var img = [
-        'http://localhost/justanotheritcompany/img/skyscrapers.jpg',
-        'http://localhost/justanotheritcompany/img/nyc-street.jpg',
-        'http://localhost/justanotheritcompany/img/nyc-taxis.jpg',
-//        'http://localhost/justanotheritcompany/img/skyscraper-top.jpg',
+        'img/skyscrapers.jpg',
+        'img/nyc-street.jpg',
+        'img/nyc-taxis.jpg',
+//        '/img/skyscraper-top.jpg',
     ];
     var imgCount = img.length;
     //console.log(imgCount);
     
     var val = Math.floor(Math.random() * imgCount);
 
-    $('header').css('background-image', 'url(' + img[val] + ')');
+    $('header').css('background-image', 'url(' + website + img[val] + ')');
 });
