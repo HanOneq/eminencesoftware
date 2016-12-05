@@ -71,9 +71,9 @@
                         <li>
                             <a class="page-scroll" href="#about">About</a>
                         </li>
-                        <li>
+<!--                        <li>
                             <a class="page-scroll" href="#team">Team</a>
-                        </li>
+                        </li>-->
                         <li>
                             <a class="page-scroll" href="#contact">Contact</a>
                         </li>
