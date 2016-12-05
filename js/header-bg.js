@@ -8,7 +8,7 @@ jQuery(document).ready(function () {
     ];
     var imgCount = img.length;
     //console.log(imgCount);
-    
+
     var val = Math.floor(Math.random() * imgCount);
 
     $('header').css('background-image', 'url(' + website + img[val] + ')');
