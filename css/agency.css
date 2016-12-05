@@ -747,3 +747,30 @@ body {
 .intro-heading > span {
     color: #fed136;
 }
+.navbar-header.page-scroll{
+    top: 240px;
+    z-index: 2;
+    animation-name: fcloud02-custom;
+    animation-delay: 1s;
+    animation-duration: .550s;
+    animation-timing-function: linear;  
+    /*animation-timing-function: cubic-bezier(0.68, -0.55, 0.26, 1.55);*/
+    animation-fill-mode: both; 
+    animation-iteration-count: 1;
+    /*animation: fcloud02-custom 2s 1s linear infinite both;*/
+}
+
+@keyframes fcloud02-custom{
+    from{
+        transform: translateX(-250px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+.page-scroll.btn.btn-xl{
+    transition:all .3s ease;
+}
+.page-scroll.btn.btn-xl:hover{
+    transform: scale(1.2);
+}
