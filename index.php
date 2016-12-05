@@ -27,6 +27,9 @@
         <!-- Theme CSS -->
         <link href="css/agency.css" rel="stylesheet">
 
+        <!-- jQuery -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        
         <!-- custom -->
         <script type="text/javascript" src="js/header-bg.js"></script>
         <script type="text/javascript" src="js/custom-animations.js"></script>
@@ -438,7 +441,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message.">Hello, I'd like to request some information regarding your Services. <br>Thank you</textarea>
+                                        <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."> </textarea>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
@@ -663,9 +666,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- jQuery -->
-        <script src="vendor/jquery/jquery.min.js"></script>
 
         <!-- Bootstrap Core JavaScript -->
         <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
