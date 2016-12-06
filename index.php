@@ -103,8 +103,8 @@
                         <!--<div class="intro-heading">Java<span>+</span>Drupal<span>+</span>Apex</div>-->
                         <!--<div class="intro-lead-in" style="color:yellow;margin-top:-25px;">Projects</div>-->
                         <div class="intro-heading animated bounceIn">We are a New York based IT Company</div>
-                        <a href="#services" class="page-scroll btn btn-xl">Find out more</a>
-                        <a href="#contact" class="page-scroll btn btn-xl" style="margin-left:2%">Contact Us</a>
+                        <a href="#services" class="page-scroll btn btn-xl" style="margin-left:2%;margin-top: 2%;">Find out more</a>
+                        <a href="#contact" class="page-scroll btn btn-xl" style="margin-left:2%;margin-top: 2%;">Contact Us</a>
                     </div>
                 </div>
             </header>
