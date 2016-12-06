@@ -1,9 +1,7 @@
 jQuery(document).ready(function () {
     var website = null;
-    console.log(website);
 
 
-    //location.protocol + '//' + location.host + location.pathname
     if (window.location.host == 'localhost') {
         website = window.location.protocol + '//' + window.location.host + '/' + window.location.pathname;
         console.log('you are local at: '+ website);
@@ -25,6 +23,8 @@ jQuery(document).ready(function () {
     console.log(imgCount);
 
     var val = Math.floor(Math.random() * imgCount);
+
+    console.log('current image: ' + website + img[val]);
 
     $('header').css('background-image', 'url(' + website + img[val] + ')');
 });
