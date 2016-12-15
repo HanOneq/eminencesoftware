@@ -1,35 +1,48 @@
 jQuery(document).ready(function () {
 
-    var host = window.location.host;
     var url = null;
+    var host = window.location.host;
 
     switch (host) {
         case 'localhost':
-            url = localhost_cleanup();
-            console.log('after cleanup by localhost_cleanup(): ' + website);
+            url = localhost_url_cleanup();
+            //console.log('after cleanup by localhost_cleanup(): ' + url);
             break;
 
         default:
-            url = non_localhost_cleanup();
-            console.log('you are not local at non_localhost_cleanup: ' + website);
+            url = non_localhost_url_cleanup();
+            //console.log('you are not local at non_localhost_cleanup: ' + url);
     }
 
+    set_webpage_background_img(url);
 
-    var img = [
-        '/img/skyscrapers.jpg',
+});
+
+function set_webpage_background_img(url) {
+    var imgs = [
         '/img/nyc-street.jpg',
         '/img/nyc-taxis.jpg',
-                //'/img/skyscraper-top.jpg',
+        '/img/nmh.jpg',
+                //'/img/d.jpg',
+                //'/img/skyscrapers.jpg',
+                //'/img/nyc-taxis2.jpg',
     ];
-    var imgCount = img.length;
-    console.log(imgCount);
+    localStorage.setItem("imgs", JSON.stringify(imgs));
+    var storedImgArray = JSON.parse(localStorage.getItem("imgs"));
+    //console.log(storedImgArray);
 
-    var val = Math.floor(Math.random() * imgCount);
+    localStorage.setItem("used_imgs", JSON.stringify([]));
+    //var storedUsedImgs = JSON.parse(localStorage.getItem("used_imgs"));
+    //console.log(storedUsedImgs);
 
-    console.log('current image: ' + url + img[val]);
+    var count = storedImgArray.length;
+    //console.log(count);
 
-    $('header').css('background-image', 'url(' + url + img[val] + ')');
-});
+    var rand_img = Math.floor(Math.random() * count);
+    //console.log('current image: ' + url + storedImgArray[rand_img]);
+
+    $('header').css('background-image', 'url(' + url + storedImgArray[rand_img] + ')');
+}
 
 function remove_trailing_slash(url) {
     var len = url.length;
@@ -63,24 +76,23 @@ function remove_leading_slash(url) {
     return url;
 }
 
-function localhost_cleanup() {
+function localhost_url_cleanup() {
 
     var protocol = window.location.protocol;
     var host = window.location.host;
     var pathname = remove_leading_slash(window.location.pathname);
     pathname = remove_trailing_slash(pathname);
 
-    console.log(protocol);
-    console.log(host);
-    console.log(pathname);
+    //console.log(protocol);
+    //console.log(host);
+    //console.log(pathname);
 
-    website = protocol + '//' + host + '/' + pathname;
+    var website = protocol + '//' + host + '/' + pathname;
 
     return website;
 }
 
-function non_localhost_cleanup() {
-    website = window.location.protocol + '//' + window.location.host;
+function non_localhost_url_cleanup() {
+    var website = window.location.protocol + '//' + window.location.host;
     return website;
 }
-   

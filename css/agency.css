@@ -226,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 header {
-    background-image: url('../img/skyscrapers.jpg');
+    /*background-image: url('../img/skyscrapers.jpg');*/
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -773,4 +773,12 @@ body {
 }
 .page-scroll.btn.btn-xl:hover{
     transform: scale(1.05);
+}
+.timeline-body {
+    /*border: 3px solid red;*/
+    display: none;
+}
+.timeline-panel {
+    /*border: 3px solid green;*/
+    margin-top: 3%;
 }
