@@ -125,7 +125,7 @@
                                 <i class="fa fa-database fa-stack-1x fa-inverse"></i>
                             </span>
                             <h4 class="service-heading">Oracle / Apex Development + Support</h4>
-                            <p class="text-muted">We provide support for Oracle related products including Oracle, Apex and Banner related applications used at most Higher Education institutions.</p>
+                            <p class="text-muted">We provide support for Oracle related products including Oracle, Apex and Banner related applications used at most Businesses and Higher Education institutions.</p>
                         </div>
                         <div class="col-md-4">
                             <span class="fa-stack fa-4x">
@@ -204,7 +204,7 @@
             </section>
 
             <!-- About Section -->
-            <section id="about">
+            <!--<section id="about">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 text-center">
@@ -282,7 +282,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>-->
 
             <!-- Team Section -->
             <!--
@@ -390,11 +390,6 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <form name="sentMessage" id="contactForm" novalidate action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-                                <?php
-                                if (isset($_POST)) {
-                                  var_dump($_POST);
-                                }
-                                ?>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
