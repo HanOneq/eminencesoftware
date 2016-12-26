@@ -140,7 +140,7 @@
                                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                 <i class="fa fa-mixcloud fa-stack-1x fa-inverse"></i>
                             </span>
-                            <h4 class="service-heading">Java Applications Development + Support</h4>
+                            <h4 class="service-heading">Java Development + Support</h4>
                             <p class="text-muted">Java can be a heavy subject to talk about. Especially when an institution is short on manpower or resources. Allow us to fill in the gap by providing Java support at critically needed times.</p>
                         </div>
                     </div>
