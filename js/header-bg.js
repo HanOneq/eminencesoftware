@@ -21,11 +21,11 @@ jQuery(document).ready(function () {
 function set_webpage_background_img(url) {
     var imgs = [
         '/img/nyc-street.jpg',
-        '/img/nyc-taxis.jpg',
-        '/img/nmh.jpg',
-                //'/img/d.jpg',
-                //'/img/skyscrapers.jpg',
-                //'/img/nyc-taxis2.jpg',
+        //'/img/nyc-taxis.jpg',
+        '/img/nmh.jpg'
+        //'/img/d.jpg',
+        //'/img/skyscrapers.jpg',
+        //'/img/nyc-taxis2.jpg',
     ];
     localStorage.setItem("imgs", JSON.stringify(imgs));
     var storedImgArray = JSON.parse(localStorage.getItem("imgs"));
