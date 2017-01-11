@@ -125,7 +125,7 @@
                                 <i class="fa fa-database fa-stack-1x fa-inverse"></i>
                             </span>
                             <h4 class="service-heading">Software Developement</h4>
-                            <p class="text-muted">We can assist your Business with IT support for software involving various technologies including Oracle, Oracle Apex Express, PHP, Java, Javascript, Drupal, Wordpress, Customer Relationship Management Systems (CRM's), Web based Catalogs, Directories, and more.  Feel free to speak to us.</p>
+                            <p class="text-muted">We can assist your Business with software support involving various technologies such as Oracle,  Apex Express, PHP, Java, Javascript, Drupal, Wordpress, Customer Relationship Management Systems (CRM's), Web based Catalogs, Directories, and more.  Feel free to speak to us.</p>
                         </div>
                         <div class="col-md-4">
                             <span class="fa-stack fa-4x">
@@ -133,7 +133,7 @@
                                 <i class="fa fa-drupal fa-stack-1x fa-inverse"></i>
                             </span>
                             <h4 class="service-heading">Website Support & Maintenance</h4>
-                            <p class="text-muted">Talk to us about the differnet options possible when it comes to websites. We are able to customize applications based on need and requirements. </p>
+                            <p class="text-muted">Ask us about the differnet possibilities when it comes to websites. We are able to customize applications based on need and requirements.</p>
                         </div>
                         <div class="col-md-4">
                             <span class="fa-stack fa-4x">
