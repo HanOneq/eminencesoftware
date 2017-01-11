@@ -351,7 +351,7 @@
             -->
 
             <!-- Clients Aside -->
-            <!-- <aside class="clients">
+             <aside class="clients">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
@@ -376,7 +376,7 @@
                         </div>
                     </div>
                 </div>
-            </aside> -->
+            </aside>
 
             <!-- Contact Section -->
             <section id="contact">
