@@ -124,7 +124,7 @@
                                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                 <i class="fa fa-database fa-stack-1x fa-inverse"></i>
                             </span>
-                            <h4 class="service-heading">Oracle / Apex Development + Support</h4>
+                            <h4 class="service-heading">Software Developement</h4>
                             <p class="text-muted">We provide support for Oracle related products including Oracle, Apex and Banner related applications used at most Businesses and Higher Education institutions.</p>
                         </div>
                         <div class="col-md-4">
@@ -132,7 +132,7 @@
                                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                 <i class="fa fa-drupal fa-stack-1x fa-inverse"></i>
                             </span>
-                            <h4 class="service-heading">Web Site Maintenance + Support</h4>
+                            <h4 class="service-heading">Website Support & Maintenance</h4>
                             <p class="text-muted">Talk to us about the differnet options possible when it comes to websites. We are able to customize applications based on need and requirements. </p>
                         </div>
                         <div class="col-md-4">
@@ -140,7 +140,7 @@
                                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                 <i class="fa fa-mixcloud fa-stack-1x fa-inverse"></i>
                             </span>
-                            <h4 class="service-heading">Java Development + Support</h4>
+                            <h4 class="service-heading">Business Applications</h4>
                             <p class="text-muted">Java can be a heavy subject to talk about. Especially when an institution is short on manpower or resources. Allow us to fill in the gap by providing Java support at critically needed times.</p>
                         </div>
                     </div>
