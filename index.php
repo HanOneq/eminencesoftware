@@ -125,7 +125,7 @@
                                 <i class="fa fa-database fa-stack-1x fa-inverse"></i>
                             </span>
                             <h4 class="service-heading">Software Developement</h4>
-                            <p class="text-muted">We provide support for Oracle related products including Oracle, Apex and Banner related applications used at most Businesses and Higher Education institutions.</p>
+                            <p class="text-muted">We can assist your Business with IT support for software involving various technologies including Oracle, Oracle Apex Express, PHP, Java, Javascript, Drupal, Wordpress, Customer Relationship Management Systems (CRM's), Web based Catalogs, Directories, and more.  Feel free to speak to us.</p>
                         </div>
                         <div class="col-md-4">
                             <span class="fa-stack fa-4x">
@@ -141,7 +141,7 @@
                                 <i class="fa fa-mixcloud fa-stack-1x fa-inverse"></i>
                             </span>
                             <h4 class="service-heading">Business Application Development</h4>
-                            <p class="text-muted">Java can be a heavy subject to talk about. Especially when an institution is short on manpower or resources. Allow us to fill in the gap by providing Java support at critically needed times.</p>
+                            <p class="text-muted">Business applications may involve complex logic or API frameworks that may require a software engineer to get involved. If there is a task too complex for you to handle, feel free to hire us to resolve these issues. We'll provide the customized support based on your software needs and requirements.</p>
                         </div>
                     </div>
                 </div>
