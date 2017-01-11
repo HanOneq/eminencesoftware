@@ -132,7 +132,7 @@
                                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                 <i class="fa fa-drupal fa-stack-1x fa-inverse"></i>
                             </span>
-                            <h4 class="service-heading">Website Support & Maintenance</h4>
+                            <h4 class="service-heading">Website Design, Support & Maintenance</h4>
                             <p class="text-muted">Ask us about the differnet possibilities when it comes to websites. We are able to customize applications based on need and requirements.</p>
                         </div>
                         <div class="col-md-4">
