@@ -115,7 +115,7 @@
                     <div class="row">
                         <div class="col-lg-12 text-center">
                             <h2 class="section-heading">Services</h2>
-                            <h3 class="section-subheading text-muted">Here are some of the areas where we can help</h3>
+                            <h3 class="section-subheading text-muted">We can assist you with all Software requirements. Feel free to discuss any requirements by calling us at (518)-512-9261. Ask for Vishal.</h3>
                         </div>
                     </div>
                     <div class="row text-center">
