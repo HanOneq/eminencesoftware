@@ -182,7 +182,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <h4>Menshealth.com</h4>
-                                <p class="text-muted">Website Design</p>
+                                <p class="text-muted">Website Development</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 portfolio-item">
