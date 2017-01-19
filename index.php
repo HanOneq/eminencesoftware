@@ -380,34 +380,52 @@
 
             <!-- Contact Section -->
             <section id="contact">
-                <div class="container">
-                    <div class="row">
+<div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact" data-sr-id="9" style="; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; "></i>
+                    <p>(518) 512-9261</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact" data-sr-id="10" style="; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; "></i>
+                    <p><a href="mailto:your-email@your-domain.com">sales@justanotheritcompany.com</a></p>
+                </div>
+            </div>
+        </div>
+  
+  <div class="container">
+                    <br><br><br><div class="row">
                         <div class="col-lg-12 text-center">
-                            <h2 class="section-heading">Contact Us</h2>
+                            <h2 class="section-heading">Or send us a message</h2>
                             <h3 class="section-subheading text-muted"> </h3>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-12">
-                            <form name="sentMessage" id="contactForm" novalidate action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+                            <form name="sentMessage" id="contactForm" novalidate="" action="/index.php" method="post">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                            <input class="form-control" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter your name." type="text">
                                             <p class="help-block text-danger"></p>
                                         </div>
                                         <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                            <input class="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address." type="email">
                                             <p class="help-block text-danger"></p>
                                         </div>
                                         <div class="form-group">
-                                            <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                            <input class="form-control" placeholder="Your Phone *" id="phone" required="" data-validation-required-message="Please enter your phone number." type="tel">
                                             <p class="help-block text-danger"></p>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."> </textarea>
+                                            <textarea class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message."> </textarea>
                                             <p class="help-block text-danger"></p>
                                         </div>
                                     </div>

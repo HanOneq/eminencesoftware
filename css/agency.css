@@ -782,3 +782,6 @@ body {
     /*border: 3px solid green;*/
     margin-top: 3%;
 }
+#contact .container:nth-child(1){
+    color: white;
+}
