@@ -89,9 +89,9 @@
                         <li>
                             <a class="page-scroll" href="#work">Work</a>
                         </li>
-                        <li>
+                        <!--<li>
                             <a class="page-scroll" href="#pricing">Pricing</a>
-                        </li>
+                        </li>-->
                         <li>
                             <a class="page-scroll" href="#contact">Contact</a>
                         </li>
