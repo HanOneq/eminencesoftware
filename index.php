@@ -103,7 +103,7 @@
         <!-- Header -->
         <header style="background-image: url('img/agency/backgrounds/bg-header.jpg');">
             <div class="intro-content">
-                            <img src="img/agency/profile.svg" class="img-responsive img-centered" alt="">
+                            <!--<img src="img/agency/profile.svg" class="img-responsive img-centered" alt="">-->
                 <!--            <div class="brand-name">Vitality</div>
                             <hr class="colored">
                             <div class="brand-name-subtext">by Start Bootstrap</div>-->
