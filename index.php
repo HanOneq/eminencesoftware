@@ -115,7 +115,7 @@
                 <div class="intro-heading">We are a New York based IT Company</div>
                 <ul class="list-inline cta-list">
                     <li>
-                        <a href="#work" class="btn btn-outline-light page-scroll">Find out more</a>
+                       <!-- <a href="#work" class="btn btn-outline-light page-scroll">Find out more</a>-->
                     </li>
                     <li>
                         <a href="#contact" class="btn btn-outline-light page-scroll">Contact Us</a>
@@ -135,8 +135,8 @@
                     <div class="col-lg-12 wow fadeIn">
                         <!--<h1>Themes for everyone</h1>-->
                         <h1>Themes for everyone</h1>
-                        <p>We can assist you with many Software requirements. Feel free to discuss by calling (518)-512-9261.</p>
-                        <hr class="colored">
+                        	<p>Feel free to call us at (518) 512-9261. Here are a few services we provide.</p>
+			<hr class="colored">
                     </div>
                 </div>
                 <div class="row text-center content-row">
@@ -144,7 +144,6 @@
                         <div class="about-content">
                             <i class="fa fa-edit fa-4x"></i>
                             <h3>Website Development</h3>
-                            <p>Here are a few web applications we can support:</p>
                             <ul>
                                 <li><i class=""></i> Content Management Systems</li>
                                 <li><i class=""></i> Web Catalogs & Directories</li>

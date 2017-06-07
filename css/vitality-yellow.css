@@ -1204,3 +1204,7 @@ header .intro-heading {
 .about-content > ul {
     text-align: left;
 }
+.bg-gray{
+	display: none;
+}
+
