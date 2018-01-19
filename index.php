@@ -8,22 +8,22 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Drupal Soft Solutions</title>
+        <title>Eminence Software</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
         <!-- Default Fonts (IMPORTANT: Delete these if you are using a different body style!) -->
-        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900' rel='stylesheet' type='text/css'>
+        <!--<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>-->
+        <!--<link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900' rel='stylesheet' type='text/css'>-->
 
         <!-- Modern Style Fonts (IMPORTANT: Delete these unless you are using body.modern!) -->
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
+        <!--<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>-->
+        <!--<link href='https://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>-->
 
         <!-- Vintage Style Fonts (IMPORTANT: Delete these unless you are using body.vintage!) -->
-        <link href='https://fonts.googleapis.com/css?family=Sanchez:400italic,400' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
+        <!--<link href='https://fonts.googleapis.com/css?family=Sanchez:400italic,400' rel='stylesheet' type='text/css'>-->
+        <!--<link href='https://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>-->
 
         <!-- Plugin CSS -->
         <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -72,7 +72,7 @@
                     </button>
                     <a class="navbar-brand page-scroll" href="#page-top">
                         <!--<img src="img/agency/logo.svg" class="img-responsive" alt="">-->
-                        <p class="logo">Drupal Soft Solutions</p>
+                        <p class="logo" href="#page-top">Eminence Software</p>
                     </a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -103,7 +103,7 @@
         <!-- Header -->
         <header style="background-image: url('img/agency/backgrounds/bg-header.jpg');">
             <div class="intro-content">
-                            <!--<img src="img/agency/profile.svg" class="img-responsive img-centered" alt="">-->
+                <img src="img/agency/profile.svg" class="img-responsive img-centered" alt="">
                 <!--            <div class="brand-name">Vitality</div>
                             <hr class="colored">
                             <div class="brand-name-subtext">by Start Bootstrap</div>-->
@@ -134,8 +134,8 @@
                 <div class="row text-center">
                     <div class="col-lg-12 wow fadeIn">
                         <!--<h1>Themes for everyone</h1>-->
-                        <h1>Themes for everyone</h1>
-                        	<p>Feel free to call us at (518) 512-9261. Here are a few services we provide.</p>
+                        <h1>Software Design</h1>
+                        	<p>We specialize in Software Design, Software Development and Web Hosting. Our Expertise includes</p>
 			<hr class="colored">
                     </div>
                 </div>
@@ -143,7 +143,7 @@
                     <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".4s">
                         <div class="about-content">
                             <i class="fa fa-edit fa-4x"></i>
-                            <h3>Website Development</h3>
+                            <h3>Website Design + Development</h3>
                             <ul>
                                 <li><i class=""></i> Content Management Systems</li>
                                 <li><i class=""></i> Web Catalogs & Directories</li>
@@ -167,14 +167,14 @@
                     <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".6s">
                         <div class="about-content">
                             <i class="fa fa-tablet fa-4x"></i>
-                            <h3>Tech Support & Maintenance</h3>
+                            <h3>Tech Support + Maintenance</h3>
                             <p>We are able to assist your business with tech support involving technologies such as Oracle, Application Express, PHP, Java, Javascript, Drupal, Wordpress, HTML, CSS and more. Feel free to speak to us.</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".8s">
                         <div class="about-content">
                             <i class="fa fa-heart fa-4x"></i>
-                            <h3>Training</h3>
+                            <h3>IT Training</h3>
                             <p>We've got a team of talented people who are able to provide training to your staff.</p>
                         </div>
                     </div>
@@ -622,7 +622,7 @@
                     </div>
                     <div class="col-md-4 contact-details">
                         <h4><i class="fa fa-envelope"></i> Email</h4>
-                        <p><a href="mailto:sales@justanotheritcompany.com">sales@justanotheritcompany.com</a>
+                        <p><a href="mailto:sales@eminence.us">sales@eminence.us</a>
                         </p>
                     </div>
                 </div>
@@ -640,7 +640,7 @@
                 </div>
                 <div class="row copyright">
                     <div class="col-lg-12">
-                        <p class="small">&copy; 2017 Drupal Soft Solutions</p>
+                        <p class="small">&copy; Eminence Software Solutions</p>
                     </div>
                 </div>
             </div>
@@ -892,12 +892,12 @@
         <!-- Plugin Scripts -->
         <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
         <script src="vendor/owl-carousel/owl.carousel.js"></script>
-        <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-        <script src="vendor/formstone/core.js"></script>
-        <script src="vendor/formstone/transition.js"></script>
-        <script src="vendor/formstone/background.js"></script>
-        <script src="vendor/mixitup/jquery.mixitup.js"></script>
-        <script src="vendor/wow/wow.min.js"></script>
+        <!--<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>-->
+        <!--<script src="vendor/formstone/core.js"></script>-->
+        <!--<script src="vendor/formstone/transition.js"></script>-->
+        <!--<script src="vendor/formstone/background.js"></script>-->
+        <!--<script src="vendor/mixitup/jquery.mixitup.js"></script>-->
+        <!--<script src="vendor/wow/wow.min.js"></script>-->
 
         <!-- Contact Form Scripts -->
         <script src="js/contact_me.js"></script>
