@@ -1100,7 +1100,7 @@ footer.footer .copyright p.small {
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
-.btn-outline-dark:hover,
+.btn-outline-dark/*:hover*/,
 .btn-outline-dark:focus {
   color: white;
   background: #EF4035;
